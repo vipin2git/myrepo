@@ -1,2 +1,2 @@
 # myrepo
-repo sfor learning
+repo is for learning
