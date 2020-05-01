@@ -16,7 +16,8 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-      sh ls -ltr | grep bash.sh 
-      whoami
-      pwd
+    ls -ltr | grep bash.sh 
+    whoami
+    pwd
+    ./bash.sh
   displayName: 'Run a multi-line script'
