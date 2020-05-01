@@ -1,4 +1,4 @@
 ls -ltr
 whoami
 pwd
-apt-get update -y
+sudo apt-get update -y
