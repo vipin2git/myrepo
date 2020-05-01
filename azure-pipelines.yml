@@ -18,3 +18,11 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 - script: bash.sh
+- task: SSH@0
+  inputs:
+    runOptions: 'inline'
+    inline: |
+      ls -ltr
+      whoami
+      pwd
+    readyTimeout: '20000'
