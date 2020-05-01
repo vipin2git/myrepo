@@ -19,5 +19,6 @@ steps:
     ls -ltr | grep bash.sh 
     whoami
     pwd
+    sudo chmod 755 bash.sh
     ./bash.sh
   displayName: 'Run a multi-line script'
